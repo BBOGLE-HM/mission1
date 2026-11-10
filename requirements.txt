@@ -1,0 +1,5 @@
+# 1.67 에서 검증. 테마 light/dark 설정, :color-badge[] 마크다운, width="stretch" 등 최신 기능을 사용함
+streamlit>=1.67,<2
+requests>=2.31
+PyYAML>=6.0
+tzdata>=2024.1

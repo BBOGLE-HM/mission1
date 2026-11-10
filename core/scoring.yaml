@@ -1,0 +1,11 @@
+# 추천 점수 가중치 (PRD F2: 가중치는 config 로 관리)
+theme_fit: 3          # 테마 키워드 적합도(최대 10점) × 가중치
+theme_fit_cap: 10
+penalty: 3            # 감점 키워드 × 가중치
+kids_tag_bonus: 4     # 아이 테마에서 아동 공연 태그 가점
+date_max: 4           # 진행 중이면 만점, 시작일이 멀수록 감소
+date_decay_days: 4    # 시작까지 N일마다 1점 감소
+free_bonus: 3         # 무료
+budget_slack: 2       # (예산 - 비용) / 예산 × 가중치
+booking_soon: 1       # 예매 오픈 7일 이내
+booking_soon_days: 7
